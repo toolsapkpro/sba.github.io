@@ -1,0 +1,124 @@
+body {
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: red;
+    outline: none;
+    padding: 10px;
+}
+.container {
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  img {
+    border-radius: 5px;
+}
+.marquee {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 5px;
+    color: red;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+body {
+    padding: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.profile img {
+    float: right;
+    border-radius: 50%;
+}
+
+.container {
+    font-size: 10px;
+}
+
+.container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#list {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.content img {
+    border-radius: 10px;
+}
+
+.content video {
+    border-radius: 10px;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pay {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}

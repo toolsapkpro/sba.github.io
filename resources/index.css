@@ -1,0 +1,261 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #E41827;
+    color: whitesmoke;
+    font-size: 12px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.fa-bars {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.more1 {
+    background-color: #E41827;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 12px;
+    box-shadow: 2px 2px 0px #000;
+}
+
+.fa-circle-plus, .fa-right-to-bracket {
+    float: right;
+}
+
+.more-refer {
+    background-color: #E41827;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: whitesmoke;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 0px #000;
+}
+
+.fa-arrow-up-from-bracket {
+    float: right;
+}
+
+.floating-menu {
+    display: none;
+    background: #E41827;
+    padding: 10px;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 12px;
+}
+
+.more12 {
+    margin-top: 5px;
+    color: aliceblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px;
+}
+
+.more123 {
+    margin-top: 5px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.containe {
+    width: 100%;
+    display: flex;
+}
+
+.swiper {
+    width: 95%;
+    height: fit-content;
+}
+.swiper-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: #E41827;
+}
+
+form {
+    margin-right: 5px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+input, select {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #000;
+    height: 40px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E41827;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #E41827;
+}
+
+select:focus {
+    outline: none;
+    border: 1px solid #E41827;
+}
+
+.button {
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.con-me {
+    background: #E41827;
+    padding: 5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.content {
+    font-size: 12px;
+    background-color: #E41827;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: aliceblue;
+}
+
+.content h3 {
+    margin-top: 5px;
+}
+
+.content span {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.help {
+    background-color: #E41827;
+    color: aliceblue;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 12px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.help a {
+    text-align: center;
+    color: white;
+    cursor: none;
+}
+
+.vvd {
+    margin-bottom: 5px;
+}
+
+.buy1 {
+    background-color: aliceblue;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #E41827;
+}
+
+.marquee {
+    overflow: hidden;
+    background-color: #E41827;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #000;
+}
+  
+.marquee span {
+    display: flex;
+    align-items: center;
+}
+  
+.fa-solid.fa-bullhorn {
+    margin-right: 10px;
+}
+
+.fa-server {
+    float: right;
+}
+
+.more1 img {
+    width: 20px;
+    float: right;
+}
+
+.get-pass {
+    background: #E41827;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 12px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    z-index: 1;
+    position: fixed;
+}
+
+.get-pass img {
+    width: 30px;
+    border-radius: 50%;
+    float: right;
+}
